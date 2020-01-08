@@ -10,6 +10,7 @@ Mulig det kan være en fordel å kjøre vscode i [WSL](https://code.visualstudio
 
 For å installere ponyc i WSL kan man gjøre sånn:
 ```bash
+ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E04F0923 B3B48BDA
  sudo add-apt-repository "deb https://dl.bintray.com/pony-language/ponylang-debian  $(lsb_release -cs) main"
  sudo apt-get -V install ponyc
  ```
