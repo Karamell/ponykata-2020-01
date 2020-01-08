@@ -1,2 +1,2 @@
 #!/bin/bash
-ponyc helloworld -o helloworld/bin --debug && helloworld/bin/helloworld
+ponyc tests -o tests/bin --debug && tests/bin/tests
